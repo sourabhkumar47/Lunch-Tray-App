@@ -156,9 +156,9 @@ class OrderViewModel : ViewModel() {
 
     fun calculateTaxAndTotal() {
         // TODO: set _tax.value based on the subtotal and the tax rate.
-        _tax.value = taxRate.mul
+        _tax.value = taxRate.times(_subtotal.value!!.toDouble())
         // TODO: set the total based on the subtotal and _tax.value.
-
+        _total.value = tax.value?.let { _subtotal.value!!.plus(it.toDouble()) }
     }
 
     /**
