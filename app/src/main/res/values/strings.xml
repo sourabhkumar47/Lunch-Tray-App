@@ -33,4 +33,8 @@
     <string name="chilli">chilli</string>
     <string name="pasta">pasta</string>
     <string name="skillet">skillet</string>
+    <string name="rice">rice</string>
+    <string name="potatoes">potatoes</string>
+    <string name="soup">soup</string>
+    <string name="salad">salad</string>
 </resources>
