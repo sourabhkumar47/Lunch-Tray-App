@@ -28,8 +28,8 @@
 
         <!-- TODO: Add the data binding variable for the SideMenuFragment -->
         <variable
-            name="sidefragment"
-            type="" />
+            name="sideFragment"
+            type="com.example.lunchtray.ui.order.SideMenuFragment" />
     </data>
 
     <ScrollView
@@ -57,6 +57,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
+                    android:checked="@{"
                     android:text='@{viewModel.menuItems["salad"].name}'
                     tools:text="Side 1" />
 
