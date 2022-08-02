@@ -172,6 +172,9 @@ class OrderViewModel : ViewModel() {
         _entree.value=null
         _accompaniment.value=null
         _side.value=null
+        previousSidePrice = 0.0
+        previousEntreePrice = 0.0
+        previousAccompanimentPrice = 0.0
     }
     init {
         resetOrder()
