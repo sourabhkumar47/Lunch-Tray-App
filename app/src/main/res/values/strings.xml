@@ -37,4 +37,7 @@
     <string name="potatoes">potatoes</string>
     <string name="soup">soup</string>
     <string name="salad">salad</string>
+    <string name="pickles">pickles</string>
+    <string name="berries">berries</string>
+    <string name="bread">bread</string>
 </resources>
