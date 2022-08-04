@@ -78,7 +78,7 @@ class OrderViewModel : ViewModel() {
         // TODO: if _subtotal.value is not null subtract the previous entree price from the current
         //  subtotal value. This ensures that we only charge for the currently selected entree.
         if (_subtotal.value != null) {
-            _subtotal.value =_subtotal.value!!.minus(previousEntreePrice)
+            _subtotal.value = _subtotal.value!!.minus(previousEntreePrice)
         }
 
         // TODO: set the current entree value to the menu item corresponding to the passed in string
@@ -122,7 +122,7 @@ class OrderViewModel : ViewModel() {
         // TODO: if _accompaniment.value is not null subtract the previous accompaniment price from
         //  the current subtotal value. This ensures that we only charge for the currently selected
         //  accompaniment.
-        if (_subtotal.value != null) {
+        if (_accompaniment.value != null) {
             _subtotal.value = _subtotal.value!!.minus(previousAccompanimentPrice)
         }
 
@@ -139,11 +139,10 @@ class OrderViewModel : ViewModel() {
     private fun updateSubtotal(itemPrice: Double) {
         // TODO: if _subtotal.value is not null, update it to reflect the price of the recently
         //  added item.
+        //  Otherwise, set _subtotal.value to equal the price of the item.
         if (_subtotal.value != null) {
             _subtotal.value = _subtotal.value!!.plus(itemPrice)
-        }
-        //  Otherwise, set _subtotal.value to equal the price of the item.
-        else {
+        } else {
             _subtotal.value = itemPrice
         }
         // TODO: calculate the tax and resulting total
@@ -166,17 +165,18 @@ class OrderViewModel : ViewModel() {
      */
     fun resetOrder() {
         // TODO: Reset all values associated with an order
-        _subtotal.value=0.0
-        _tax.value=0.0
-        _total.value=0.0
-        _entree.value=null
-        _accompaniment.value=null
-        _side.value=null
+        _subtotal.value = 0.0
+        _tax.value = 0.0
+        _total.value = 0.0
+        _entree.value = null
+        _accompaniment.value = null
+        _side.value = null
         previousSidePrice = 0.0
         previousEntreePrice = 0.0
         previousAccompanimentPrice = 0.0
     }
-    init {
-        resetOrder()
-    }
+
+//    init {
+//        resetOrder()
+//    }
 }
