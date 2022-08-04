@@ -113,7 +113,7 @@
             <TextView
                 android:id="@+id/subtotal"
                 style="@style/Widget.LunchTray.TextView.Subtotal"
-                android:text="@{@string/subtotal(viewModel.subtotal)"
+                android:text="@{@string/subtotal(viewModel.subtotal)}"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
                 tools:text="Subtotal: $10.00"/>
@@ -122,7 +122,7 @@
             <TextView
                 android:id="@+id/tax"
                 style="@style/Widget.LunchTray.TextView.Subtotal"
-                android:text="@{@string/tax(viewModel.tax)"
+                android:text="@{@string/tax(viewModel.tax)}"
                 android:layout_marginTop="0dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/subtotal"
@@ -135,7 +135,7 @@
                 android:layout_height="wrap_content"
                 android:textAllCaps="true"
                 android:textAppearance="?attr/textAppearanceHeadline6"
-                android:text="@{@string/total(viewModel.total)"
+                android:text="@{@string/total(viewModel.total)}"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tax"
                 tools:text="Total: $10.73"/>
@@ -147,7 +147,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/side_margin"
                 android:text="@string/submit"
-                android:onClick="@{()-> fragment.submitOrder()"
+                android:onClick="@{()-> fragment.submitOrder()}"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/total"/>
@@ -158,7 +158,7 @@
                 style="?attr/materialButtonOutlinedStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="@{()-> fragment.cancelOrder()"
+                android:onClick="@{()-> fragment.cancelOrder()}"
                 android:layout_marginTop="@dimen/base_margin"
                 android:text="@string/cancel"
                 app:layout_constraintStart_toStartOf="parent"

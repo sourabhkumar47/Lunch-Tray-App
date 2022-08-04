@@ -57,7 +57,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
-                    android:onClick="@{()-> viewModel.setEntree(@string/cauliflower)"
+                    android:onClick="@{()-> viewModel.setEntree(@string/cauliflower)}"
                     android:text='@{viewModel.menuItems["cauliflower"].name}'
                     tools:text="Entree 1" />
 
@@ -88,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
-                    android:onClick="@{()-> viewModel.setEntree(@string/chilli)"
+                    android:onClick="@{()-> viewModel.setEntree(@string/chilli)}"
                     android:text='@{viewModel.menuItems["chili"].name}'
                     tools:text="Entree 2" />
 
@@ -119,7 +119,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
-                    android:onClick="@{()-> viewModel.setEntree(@string/pasta)"
+                    android:onClick="@{()-> viewModel.setEntree(@string/pasta)}"
                     android:text='@{viewModel.menuItems["pasta"].name}'
                     tools:text="Entree 3" />
 
@@ -150,7 +150,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
-                    android:onClick="@{()-> viewModel.setEntree(@string/skillet)"
+                    android:onClick="@{()-> viewModel.setEntree(@string/skillet)}"
                     android:text='@{viewModel.menuItems["skillet"].name}'
                     tools:text="Entree 4" />
 
@@ -185,7 +185,7 @@
                 style="@style/Widget.LunchTray.TextView.Subtotal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
-                android:text ="@{@string/subtotal(viewModel.subtotal)"
+                android:text ="@{@string/subtotal(viewModel.subtotal)}"
                 tools:text="Subtotal $5.00"/>
 
             <!-- TODO: cancel the order when clicked -->
@@ -202,7 +202,7 @@
             <Button
                 android:id="@+id/next_button"
                 style="@style/Widget.Order.Button.Next"
-                android:onClick="@{()-> fragment.goToNextScreen()"
+                android:onClick="@{()-> fragment.goToNextScreen()}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/cancel_button"
