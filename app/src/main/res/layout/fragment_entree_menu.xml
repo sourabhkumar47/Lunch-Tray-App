@@ -88,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
-                    android:onClick="@{()-> viewModel.setEntree(@string/chilli)}"
+                    android:onClick="@{()-> viewModel.setEntree(@string/chili)}"
                     android:text='@{viewModel.menuItems["chili"].name}'
                     tools:text="Entree 2" />
 
