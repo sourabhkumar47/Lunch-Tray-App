@@ -16,21 +16,12 @@ an app to browse recipes, find directions to your favorite restaurant, or most
 importantly, order food, chances are that you're navigating multiple screens of 
 content.
 
-Screenshots
+## 📸 Screenshots
 -----------
-<p >
-  <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%202.png" width="300"  >
-</p>
 
-<p align="left">
-  <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%203.png" width="300"  >
-</p>
-
-<p >
-  <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%204.png" width="300"  >
-</p>
-
-<p align="left" >
-  <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%206.png" width="300"  >
-</p>
-
+<div style="display:flex;">
+<img alt="App image" src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%202.png" width="30%">
+<img alt="App image" src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%203.png" width="30%">
+<img alt="App image" src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%204.png" width="30%">
+<img alt="App image" src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%206.png" width="30%">
+</div>
