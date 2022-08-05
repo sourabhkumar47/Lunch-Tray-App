@@ -22,7 +22,7 @@ Screenshots
   <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%202.png" width="300"  >
 </p>
 
-<p >
+<p align="left">
   <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%203.png" width="300"  >
 </p>
 
@@ -30,7 +30,7 @@ Screenshots
   <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%204.png" width="300"  >
 </p>
 
-<p >
+<p align="left" >
   <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%206.png" width="300"  >
 </p>
 
