@@ -1,28 +1,36 @@
-Lunch Tray - Starter Code
+Lunch Tray App
 ==================================
-
-Starter code for the third independent project for Android Basics in Kotlin
 
 Introduction
 ------------
 
-This is the starter code for the Lunch Tray app project. This project is an opportunity for you to
-demonstrate the concepts you learned in Unit 3 of Android Basics in Kotlin.
+* In this project, we'll leverage the skills to build out
+a lunch ordering app called **Lunch Tray**, 
+* implementing :- 
+view model,
+data binding,
+and navigation between screens.
 
-Pre-requisites
---------------
+* Navigation is a fundamental part of Android development. Whether we're using 
+an app to browse recipes, find directions to your favorite restaurant, or most 
+importantly, order food, chances are that you're navigating multiple screens of 
+content.
 
-- Complete Unit 3 of Android Basics in Kotlin
+Screenshots
+-----------
+<p >
+  <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%202.png" width="300"  >
+</p>
 
-Getting Started
----------------
+<p >
+  <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%203.png" width="300"  >
+</p>
 
-1. Download the starter code
-2. Open the project in Android Studio
-3. Complete the project in accordance with the app requirements
+<p >
+  <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%204.png" width="300"  >
+</p>
 
-Tips
-----
+<p >
+  <img src="https://github.com/sourabhkumar47/Lunch-Tray-App/blob/master/Screenshots/Screenshot%206.png" width="300"  >
+</p>
 
-- Use the provided tests to ensure your app is running as expected
-- DO NOT ALTER THE PROVIDED TESTS
